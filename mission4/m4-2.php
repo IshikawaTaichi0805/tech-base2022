@@ -1,9 +1,9 @@
 
 
     <?php
-    $dsn = 'mysql:dbname=tb240115db;host=localhost';
-    $user = 'tb-240115';
-    $password = 'hGMhzFK95E';
+    $dsn = 'データベース';//繋げたいデータベースを書いてる
+    $user = 'ID';
+    $password = 'パスワード';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     $sql = "CREATE TABLE IF NOT EXISTS tbtest"
     ." ("
